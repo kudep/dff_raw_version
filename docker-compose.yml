@@ -1,0 +1,13 @@
+services:
+  dff-template:
+    build:
+      args:
+        SERVICE_PORT: 8099
+        SERVICE_NAME: dff_template
+      context: .
+      dockerfile: dff_template/Dockerfile
+    command: tail -f /dev/null
+    volumes:
+      - "./dff_template:/src"
+      - "./common:/src/common"
+version: '3.7'
