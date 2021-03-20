@@ -42,3 +42,5 @@ docker-compose up -d
 docker-compose exec dff-template python run.py
 ```
 
+## Coding Challenge
+You need to make a dilalog bot that asks 5 questions about [Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python) and checks the correctness of the answers and gives comments on each.
