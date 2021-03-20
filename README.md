@@ -41,7 +41,7 @@ bot: Sorry, I can talk only about memes.  # SYS_NON_MEMES
 docker-compose up -d
 docker-compose exec dff-template python run.py
 ```
-Now you can talk with a bot
+Now you can talk with the bot
 ![screenshot](images/screenshot.png)
 
 ## Coding Challenge
